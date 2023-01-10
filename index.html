@@ -6,67 +6,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO TIENDA</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
+
 <meta name="keywords" content="ofertas">
 <meta name="keywords" content="TIENDA">
 
 <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-<img src="./img/logo computadora.jpg" class="logo" alt="Logo">
-<h2>TODO TIENDA</h2>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+ rel="stylesheet"
 
+integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+crossorigin="anonymous">
+<!-- logo y titulo -->
+<div class="box">
+  <img src="img/Sin título.png" class="logo" alt="Logo">
+  
+</div>
+</head>
+
+<!-- Menu principal -->
 <body>
-    <nav> <ul   id="menu"> 
-        <li><a href="index.html">inicio</a></li>
-        <li><a href="./page/contactos.html">contactos</a></li>
-        <li><a href="./page/electro.html">electro</a></li>
-        <li><a href="./page/muebles.html">muebles</a></li>
+
+  <div>
+    <nav > <ul   id="menu"> 
+        <li><a  href="index.html">inicio</a></li>
+        <li><a  href="./page/contactos.html">contactos</a></li>
+        <li><a  href="./page/electro.html">electro</a></li>
+        <li><a  href="./page/muebles.html">muebles</a></li>
     </ul>    
-  </nav> <!-- carrusel -->
-    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/caja_navideña.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/ofertas videojuegos.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/1366_2000.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  </div>
+  </nav> 
+  
+
+  <!-- carrusel -->
+  <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/banner 1.jpg" class="d-block w-100" alt="banner1">
       </div>
-    <nav>
-        <div id="padre">
-            <div class="hijo-1">hijo 1</div>
-            <div class="hijo-2">hijo 2</div>
-            <div class="hijo-3">hijo 3</div>
-            <div class="hijo-4">hijo 4</div>
-
+      <div class="carousel-item">
+        <img src="./img/banner2.jpg" class="d-block w-100" alt="banner2">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/banner3.jpg" class="d-block w-100" alt="banner3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <img src="" alt="">
+  <!-- productos -->
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col mov">
+      <div class="card">
+        <img src="./img/1_tarjeta-grafica-rtx3050-8gb-colorful-battle-ax.png" class="card-img-top" alt="tarjeta grafica rtx 3070 $ 250.000">
+        <div class="card-body">
+          <h5 class="card-title">tarjeta grafica rtx 3070 $ 250.000</h5>
+          <p class="card-text text-bg-success">envío gratis</p>
         </div>
-    </nav>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <body>
+      </div>
+    </div>
+    <div class="col mov">
+      <div class="card">
+        <img src="./img/1_procesador-amd-ryzen-5-5600x-am4-2488.png" class="card-img-top" alt="procesador amd 5-5600x $ 60.000 ">
+        <div class="card-body">
+          <h5 class="card-title">procesador amd 5-5600x $ 60.000 </h5>
+          <p class="card-text text-bg-success">envío gratis</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mov">
+      <div class="card">
+        <img src="./img/productos31_36433.jpg" class="card-img-top" alt="pc gamer atlhon + 16 gb ram  $ 90.000">
+        <div class="card-body">
+          <h5 class="card-title">pc gamer atlhon + 16 gb ram  $ 90.000</h5>
+          <p class="card-text text-bg-success">envío gratis</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mov">
+      <div class="card">
+        <img src="./img/productos31_36457.jpg" class="card-img-top" alt="pc i3 $ 90.000">
+        <div class="card-body">
+          <h5 class="card-title">procesador amd 5-5600x $ 60.000</h5>
+          <p class="card-text text-bg-success">procesador amd 5-5600x $ 60.000</p>
+        </div>
+      </div>
+      </div>
+      <div class="col mov">
+        <div class="card">
+          <img src="./img/productos31_4682.jpg" class="card-img-top" alt="mesa tv $20.000">
+          <div class="card-body">
+            <h5 class="card-title">mesa tv $20.000</h5>
+            <p class="card-text text-bg-success">envío gratis</p>
+          </div>
+        </div>
+    </div>
+<div class="col mov">
+  <div class="card">
+    <img src="./img/productos31_11713.jpg" class="card-img-top" alt="Mueble sala, tv $40.000">
+    <div class="card-body">
+      <h5 class="card-title">Mueble sala, tv $40.000</h5>
+      <p class="card-text text-bg-success">envío gratis</p>
+    </div>
+  </div>
+    </div>
+    <div class="col mov">
+    <div class="card">
+    <img src="./img/productos31_6314.jpg" class="card-img-top" alt="mueble sala $25.000">
+    <div class="card-body">
+      <h5 class="card-title">mueble sala $25.000</h5>
+      <p class="card-text text-bg-success">envío gratis</p>
+   </div>
+</div>
+</div>
+<div class="col mov">
+<div class="card">
+<img src="./img/escritorio.png" class="card-img-top" alt="escritorio estudiante $ 25.000">
+<div class="card-body">
+  <h5 class="card-title">escritorio estudiante $ 25.000</h5>
+  <p class="card-text text-bg-success">envío gratis</p>
+</div>
+</div>
+</div>
+</div>
     
-        
+    <!-- links bosstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous"></script>
+  </body>
+    
+        <!--footer-->
     <footer>
-        <ul 
-            id="pie"> 
-            <li class="pie_lista"><a href="www.whas.com"><img src="./img/icono whatsapp.webp" alt="wp"></li>
-            <li class="pie_lista"><a href="http://twitter.com/home"><img src="./img/depositphotos_441538718-stock-illustration-twitter-logo-symbol-icon-silhouette.jpg" alt="fb"></li>
-            <li class="pie_lista"><a href="http://facebook.com/home"><img src="./img/vector facebook.png" alt="tw"></li>
-        </ul>
+      <div class="container-fluid"> 
+        <div class="row p-5 bg-success text-white">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h3">Todo Tienda</p>
+                <div class="mb-2">
+                  <a class= "text-white text-decoration-none" 
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Terms & Conditions</a>
+                </div>
+                <div>
+                  <a class= "text-white text-decoration-none"
+                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Privacy Policy</a>
+                </div>
+            </div>
+               
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">contacto</p>
+                <div>
+                  <a class= "text-white text-decoration-none"
+                   href="https://www.instagram.com/leomessi/">instagram</a> 
+                </div>
+                <a class= "text-white text-decoration-none" 
+                href="facebook.com.ar">facebook</a>
+             
+            </div>
+               
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">links</p>
+                <ul>
+               <li> <a class= "text-white text-decoration-none" href="./page/contactos.html">contactos</a>
+               </li>
+               <li>
+                  <a class= "text-white text-decoration-none" href="./page/electro.html">electro</a>
+                </li>
+                <li>
+                 <a class= "text-white text-decoration-none" href="./page/muebles.html">muebles</a>
+                </li>
+                 <li>
+                      <a class= "text-white text-decoration-none" href="./index.html">inicio</a>
+                 </li>
+                 </ul>
+                <a href="tex"></a>
+            </div>
+                 
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class=   h5>encontranos</p>
+
+              <a class= "text-white text-decoration-none" href="https://goo.gl/maps/1NVatj4Y6syiymxz8">Panameric. Ram. 
+                Pilar Y Av. Trat. Del Pi, Pilar, Provincia de Buenos Aires</a>
+              
+            </div>
+        </div>
+    </div>
         
     </footer>
-</body>
+
 
 </html>
